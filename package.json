@@ -1,4 +1,10 @@
 {
+  "name": "iluhandernodelib",
+  "version": "0.0.1",
+  "description": "Library with some of my stuff",
+  "scripts": {
+    "try_filter": "tsc && node ./usage/filterMyFile.js materials.js materials_filtered.js id name"
+  },
   "devDependencies": {
     "@types/node": "^20.4.2",
     "tslib": "^2.6.0"
